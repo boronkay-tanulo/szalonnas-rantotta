@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Szalonnás rántotta</title>
+</head>
+<body>
+    <h2 style="text-align: center;">Szalonnás rántotta hozzávalók mennyiségének kiszámítása</h2><br>
+    <img align="right" src="nyam_nyam.png">
+    <p>Ez az oldal kiszámítja, hogy mennyi kell a <i>szalonnás rántotta</i> alapanyagaiből, <i>n</i> darab emberre.</p>
+    <label for="szam">Hány emberre kell főzni?</label>
+    <input id="szam" type="number" value="2" min="1" max="20" step="1">
+    <button onclick="validate()">Számol</button><br>
+    <input class="alapanyag" type="text" readonly>db tojás<br>
+    <input class="alapanyag" type="text" readonly>dkg szalonna<br>
+    <input class="alapanyag" type="text" readonly>csipet só<br>
+    <input class="alapanyag" type="text" readonly>kis fej hagyma<br>
+</body>
+<script src="index.js"></script>
+</html>
+
